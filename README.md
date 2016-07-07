@@ -2,30 +2,19 @@
 Basic .vimrc and .vim folder with various plugins
 
 ## Installation
-Clone this repo and symlink vim folder and vimrc
+Clone this repo and run setup.sh
 
-```
-ln -s ~/myvim/vim ~/.vim
-ln -s ~/myvim/vimrc ~/.vimrc
-```
-
-Fetch all plugins via Vundle
-
-```
-git submodule foreach git pull origin master
-vim +PluginInstall +qall
-```
-
-Install Youcompleteme (YCM)
-https://github.com/Valloric/YouCompleteMe
+## Other
+- Install Youcompleteme (YCM) https://github.com/Valloric/YouCompleteMe
 
 ## Plugins included
-- Pathogen
-- BufExplorer
-- Ctrlp.vim
-- NerdTree
-- Tmuxline
-- Vim-airline
-- Vim-fugitive
-- delimitMate
-- NERDCommenter
+- 'scrooloose/nerdtree'
+- 'scrooloose/nerdcommenter'
+- 'vim-airline/vim-airline'
+- 'tpope/vim-fugitive'
+- 'edkolev/tmuxline.vim'
+- 'Raimondi/delimitMate'
+- 'ctrlpvim/ctrlp.vim'
+- 'tpope/vim-surround'
+- 'jeetsukumaran/vim-buffergator'
+- 'majutsushi/tagbar'

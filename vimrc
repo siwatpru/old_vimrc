@@ -6,18 +6,22 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'vim-airline/vim-airline-themes'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Plugins
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-Plugin 'jlanzarotta/bufexplorer'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'vim-airline/vim-airline'
 Plugin 'tpope/vim-fugitive'
 Plugin 'edkolev/tmuxline.vim'
 Plugin 'Raimondi/delimitMate'
-Plugin 'Valloric/YouCompleteMe'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'tpope/vim-surround'
+Plugin 'jeetsukumaran/vim-buffergator'
+Plugin 'majutsushi/tagbar'
+"Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()
 filetype plugin indent on
@@ -148,13 +152,20 @@ let NERDTreeQuitOnOpen=1
 
 " Airline
 set laststatus=2
-let g:airline_theme='light'
 let g:airline_powerline_fonts=1
+let g:airline_theme='wombat'
 set guifont=Sauce_Code_Powerline:h10
 let g:airline#extensions#branch#enabled=1
 
-" BufExplorer
-nmap <leader>e :BufExplorer<CR>
+" Tmuxline
+let g:tmuxline_preset = {
+      \'a'    : '#S',
+      \'win'  : '#W',
+      \'cwin' : '#W',
+      \'y'    : '#(date)',
+      \'z'    : ['#(whoami)'],
+      \ 'options': {'status-justify': 'left'}
+      \}
 
 " Fugitive
 set diffopt+=vertical
