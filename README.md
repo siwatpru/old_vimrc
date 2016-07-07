@@ -18,3 +18,4 @@ Clone this repo and run setup.sh
 - 'tpope/vim-surround'
 - 'jeetsukumaran/vim-buffergator'
 - 'majutsushi/tagbar'
+- 'terryma/vim-multiple-cursors'
