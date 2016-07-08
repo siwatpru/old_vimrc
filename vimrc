@@ -181,3 +181,6 @@ set diffopt+=vertical
 
 " nerdcommenter
 filetype plugin on
+
+" Buffergator
+let g:buffergator_split_size=100
