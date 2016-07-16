@@ -22,7 +22,10 @@ Plugin 'tpope/vim-surround'
 Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'majutsushi/tagbar'
 Plugin 'terryma/vim-multiple-cursors'
-"Plugin 'Valloric/YouCompleteMe'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'airblade/vim-gitgutter'
 
 call vundle#end()
 filetype plugin indent on
