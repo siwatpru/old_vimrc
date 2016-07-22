@@ -2,9 +2,9 @@
 Basic .vimrc and .vim folder with various plugins
 
 ## Installation
-- Remove existing `.vim` and `.vimrc`
-- Clone this repo
-- Run setup.sh (This will symlink `.vim` and `.vimrc` from this repo to home.
+1. Clone this repo to home directory
+2. Remove existing `.vim` and `.vimrc`
+3. Run setup.sh (This will symlink `.vim` and `.vimrc` from this repo to home)
 
 ## Plugins included
 - scrooloose/nerdtree

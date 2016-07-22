@@ -1,7 +1,7 @@
 #!/bin/bash
 
-ln -s ~/myvim/vim ~/.vim
-ln -s ~/myvim/vimrc ~/.vimrc
+ln -s ~/vimrc/vim ~/.vim
+ln -s ~/vimrc/vimrc ~/.vimrc
 git submodule init
 git submodule update
 vim +PluginInstall +qall
