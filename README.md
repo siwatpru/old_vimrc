@@ -1,6 +1,6 @@
 # My vim setup
 This repository contains my current Vim setup with various plugins included via Vundle.
-![screen shot](//i.imgur.com/kAlHMCp.png "Screenshot")
+![screen shot](http://i.imgur.com/kAlHMCp.png "Screenshot")
 
 ## Installation
 1. Clone this repo to home directory
