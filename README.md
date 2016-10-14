@@ -1,5 +1,6 @@
 # My vim setup
 This repository contains my current Vim setup with various plugins included via Vundle.
+![screen shot](https://github.com/siwatpru/vimrc/blob/master/screenshot.png "Screenshot")
 
 ## Installation
 1. Clone this repo to home directory
