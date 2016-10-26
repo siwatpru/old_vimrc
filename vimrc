@@ -12,12 +12,12 @@ Plugin 'vim-airline/vim-airline-themes'
 " => Plugins
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plugin 'scrooloose/nerdtree'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'vim-airline/vim-airline'
 Plugin 'tpope/vim-fugitive'
 Plugin 'edkolev/tmuxline.vim'
 Plugin 'Raimondi/delimitMate'
-Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'majutsushi/tagbar'
@@ -26,6 +26,9 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'ryanoasis/vim-devicons'
+Plugin 'mhinz/vim-startify'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
 
 call vundle#end()
 filetype plugin indent on
@@ -69,6 +72,9 @@ set tm=500
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Set encoding
+set encoding=utf8
+
 " Use spaces instead of tabs
 set expandtab
 
