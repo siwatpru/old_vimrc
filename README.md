@@ -9,16 +9,27 @@ This repository contains my current Vim setup with various plugins included via 
 4. Follow `YouCompleteMe` installation guide at https://github.com/Valloric/YouCompleteMe
 
 ## Plugins included
-- scrooloose/nerdtree
-- scrooloose/nerdcommenter
-- vim-airline/vim-airline
-- tpope/vim-fugitive
-- edkolev/tmuxline.vim
 - Raimondi/delimitMate
-- ctrlpvim/ctrlp.vim
-- tpope/vim-surround
-- jeetsukumaran/vim-buffergator
-- majutsushi/tagbar
-- terryma/vim-multiple-cursors
-- airblade/vim-gitgutter
 - Valloric/YouCompleteMe
+- Xuyuanp/nerdtree-git-plugin
+- airblade/vim-gitgutter
+- ctrlpvim/ctrlp.vim
+- easymotion/vim-easymotion
+- edkolev/tmuxline.vim
+- eugen0329/vim-esearch
+- haya14busa/vim-operator-flashy
+- jeetsukumaran/vim-buffergator
+- kana/vim-operator-user
+- mhinz/vim-startify
+- moll/vim-node
+- mxw/vim-jsx
+- pangloss/vim-javascript
+- posva/vim-vue
+- ryanoasis/vim-devicons
+- scrooloose/nerdcommenter
+- scrooloose/nerdtree
+- terryma/vim-multiple-cursors
+- thinca/vim-quickrun
+- tpope/vim-fugitive
+- tpope/vim-surround
+- vim-airline/vim-airline
