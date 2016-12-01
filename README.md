@@ -7,6 +7,7 @@ This repository contains my current Vim setup with various plugins included via 
 2. Remove existing `.vim` and `.vimrc`
 3. Run setup.sh (This will symlink `.vim` and `.vimrc` from this repo to home)
 4. Follow `YouCompleteMe` installation guide at https://github.com/Valloric/YouCompleteMe
+5. Follow `Vim-DevIcons` installation guide at https://github.com/ryanoasis/vim-devicons
 
 ## Plugins included
 - Raimondi/delimitMate
