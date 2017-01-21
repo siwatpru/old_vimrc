@@ -12,7 +12,6 @@ Plugin 'vim-airline/vim-airline-themes'
 " => Plugins
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plugin 'Raimondi/delimitMate'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'ctrlpvim/ctrlp.vim'
