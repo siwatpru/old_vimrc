@@ -27,14 +27,18 @@ Plugin 'moll/vim-node'
 Plugin 'mxw/vim-jsx'
 Plugin 'pangloss/vim-javascript'
 Plugin 'posva/vim-vue'
+Plugin 'rust-lang/rust.vim'
 Plugin 'ryanoasis/vim-devicons'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'thinca/vim-quickrun'
 Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-surround'
 Plugin 'vim-airline/vim-airline'
+Plugin 'vim-syntastic/syntastic'
+Plugin 'vimwiki/vimwiki'
 
 call vundle#end()
 filetype plugin indent on
@@ -210,7 +214,10 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_javascript_checkers = ['jshint']
+let g:syntastic_mode_map = { 'mode': 'passive'}
+map <Leader>m :SyntasticCheck<CR>
+map <Leader>mm :SyntasticReset<CR>
 
 " Vim-Esearch
 hi ESearchMatch ctermfg=black ctermbg=yellow guifg=#000000 guibg=#E6E6FA
@@ -230,3 +237,6 @@ hi link EasyMotionShade  Comment
 hi link EasyMotionTarget2First MatchParen
 hi link EasyMotionTarget2Second MatchParen
 hi link EasyMotionMoveHL Search
+
+" vim-startify
+let g:startify_change_to_dir=0

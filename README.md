@@ -26,11 +26,15 @@ This repository contains my current Vim setup with various plugins included via 
 - mxw/vim-jsx
 - pangloss/vim-javascript
 - posva/vim-vue
+- rust-lang/rust.vim
 - ryanoasis/vim-devicons
 - scrooloose/nerdcommenter
 - scrooloose/nerdtree
 - terryma/vim-multiple-cursors
 - thinca/vim-quickrun
 - tpope/vim-fugitive
+- tpope/vim-repeat
 - tpope/vim-surround
 - vim-airline/vim-airline
+- vim-syntastic/syntastic
+- vimwiki/vimwiki
